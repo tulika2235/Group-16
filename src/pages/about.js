@@ -1,7 +1,7 @@
 import React from "react"
 
 const about = () => {
-  return (<div>about</div>)
+  return (<h1 className="text-success">about</h1>)
 }
 
 export default about
