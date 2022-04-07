@@ -1,13 +1,11 @@
 import React, { useState } from "react"
-import validation from "../Pages/validation.js"
+
 const BasicForm = () => {
   const [values, setValues] = useState({
     fullname: "",
     email: "",
     password: "",
   });
-
-  const [errors, setErrors] = useState({});
 
   const handleChange = (event) =>{
     setValues({
@@ -16,8 +14,7 @@ const BasicForm = () => {
     })
   }
   const handleFormSubmit = event => {
-    event.preventDefault();
-    setErrors(validation(values));
+    event.preventDefault()
   }
   return (
     <div className="container">
@@ -35,7 +32,6 @@ const BasicForm = () => {
               value={values.fullname}
               onChange={handleChange}
             />
-            {errors.fullname && <p className="error">{errors.fullname}</p>}
           </div>
           <div className="Email">
             <label className="label">Email</label>
@@ -46,7 +42,6 @@ const BasicForm = () => {
               value={values.email}
               onChange={handleChange}
             />
-            {errors.email && <p className="error">{errors.email}</p>}
           </div>
           <div className="Password">
             <label className="label">Password</label>
@@ -57,7 +52,6 @@ const BasicForm = () => {
               value={values.password}
               onChange={handleChange}
             />
-            {errors.password && <p className="error">{errors.password}</p>}
           </div>
           <div>
             <button className="submit" onClick={handleFormSubmit}>
