@@ -21,6 +21,9 @@ const Header = () => {
           <li class="btn text-light text-decoration-none">
             <Link class="text-light text-decoration-none" to="/contact">contact</Link>
           </li>
+          <li class="btn text-light text-decoration-none">
+            <Link class="text-light text-decoration-none" to="/Forms">Forms</Link>
+          </li>
           {/* <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
             <ul class="dropdown-menu" aria-labelledby="dropdown05">
