@@ -5,25 +5,25 @@ import Image from "../Images/Images"
 
 const Items = [
   {
-    name: "member1.jpg",
+    name: "member1",
     facebook: "https://www.facebook.com",
     instagram: "https://www.instagram.com",
     linkedin: "https://www.linkedin.com",
   },
   {
-    name: "member2.jpg",
+    name: "member2",
     facebook: "https://www.facebook.com",
     instagram: "https://www.instagram.com",
     linkedin: "https://www.linkedin.com",
   },
   {
-    name: "member3.jpg",
+    name: "member3",
     facebook: "https://www.facebook.com",
     instagram: "https://www.instagram.com",
     linkedin: "https://www.linkedin.com",
   },
   {
-    name: "member4.jpg",
+    name: "member4",
     facebook: "https://www.facebook.com",
     instagram: "https://www.instagram.com",
     linkedin: "https://www.linkedin.com",

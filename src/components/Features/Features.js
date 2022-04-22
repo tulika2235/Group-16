@@ -5,7 +5,6 @@ import {
   CpuFill,
   GeoFill,
   House,
-  Speedometer,
   Speedometer2,
   Toggles2,
   Tools,
@@ -14,70 +13,64 @@ import {
 const Items = [
   {
     icon: <Bootstrap />,
-    title: "bootstrap title",
+    title: "Bootstrap Title",
     description: "Bootstrap description paragraph.",
   },
-
+  {
+    icon: <Calendar3 />,
+    title: "Calender 3",
+    description: "Calender 3 Calender 3 Calender 3",
+  },
+  
   {
     icon: <CpuFill />,
-    title: "Calendar3",
-    description: "Calendar3 Calendar3 Calendar3",
+    title: "Calender 3",
+    description: "Calender 3 Calender 3 Calender 3",
   },
-
   {
     icon: <GeoFill />,
-    title: "Calendar3",
-    description: "Calendar3 Calendar3 Calendar3",
+    title: "Calender 3",
+    description: "Calender 3 Calender 3 Calender 3",
   },
-
   {
     icon: <House />,
-    title: "Calendar3",
-    description: "Calendar3 Calendar3 Calendar3",
+    title: "Calender 3",
+    description: "Calender 3 Calender 3 Calender 3",
   },
-
-  {
-    icon: <Speedometer />,
-    title: "Calendar3",
-    description: "Calendar3 Calendar3 Calendar3",
-  },
-
   {
     icon: <Speedometer2 />,
-    title: "Calendar3",
-    description: "Calendar3 Calendar3 Calendar3",
+    title: "Calender 3",
+    description: "Calender 3 Calender 3 Calender 3",
   },
-
   {
     icon: <Toggles2 />,
-    title: "Calendar3",
-    description: "Calendar3 Calendar3 Calendar3",
+    title: "Calender 3",
+    description: "Calender 3 Calender 3 Calender 3",
   },
-
   {
     icon: <Tools />,
-    title: "Calendar3",
-    description: "Calendar3 Calendar3 Calendar3",
+    title: "Calender 3",
+    description: "Calender 3 Calender 3 Calender 3",
   },
 ]
 
 const Features = () => {
   return (
-    <div class="container px-4 py-5" id="icon-grid">
-      <h2 class="pb-2 border-bottom text-center">Features</h2>
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+    <div className="container px-4 py-5" id="icon-grid">
+      <h2 className="pb-2 border-bottom text-center">Features</h2>
+      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
         {Items.map((item, i) => {
           return (
-            <div key={i} class="col d-flex align-items-start">
+            <div key={i} className="col d-flex align-items-start">
               <div
-                class="bi text-muted flex-shrink-0 me-3"
+                className="bi text-muted flex-shrink-0 me-3"
                 style={{ fontSize: "2rem" }}
               >
                 {item.icon}
               </div>
 
               <div>
-                <h4 class="fw-bold mb-0">{item.title}</h4>
+                <h4 className="fw-bold mb-0">{item.title}</h4>
                 <p>{item.description}</p>
               </div>
             </div>

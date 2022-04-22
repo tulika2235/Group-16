@@ -7,9 +7,9 @@ import Team from "../components/Team/Team"
 const Index = () => {
   return (
     <Layout>
-      <Hero/>
-      <Features/>
-      <Team/>
+    <Hero/>
+    <Features/>
+    <Team/>
     </Layout>
   )
 }
