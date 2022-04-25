@@ -1,0 +1,26 @@
+[
+    {
+        "img":"../assets/Images/city1.jpg",
+        "alt":"Mumbai",
+        "name":"Mumbai",
+        "button": "Contact Us"
+    },
+    {
+        "img":"../assets/Images/city2.jpg",
+        "alt":"New Delhi",
+        "name":"New Delhi",
+        "button": "Contact Us"
+    },
+    {
+        "img":"../assets/Images/city3.jpg",
+        "alt":"Kolkata",
+        "name":"Kolkata",
+        "button": "Contact Us"
+    },
+    {
+        "img":"../assets/Images/city4.jpg",
+        "alt":"Hyderabad",
+        "name":"Hyderabad",
+        "button": "Contact Us"
+    }
+]

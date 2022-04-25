@@ -1,71 +1,78 @@
 import React from "react"
 import { Link } from "gatsby"
+import styled from "styled-components"
+import {FaBars} from "react-icons/fa"
+import { Button } from "../Button"
+import { menuData } from "../../data/MenuData"
+
 
 const Header = () => {
-  return (
-    <nav
-      className="navbar navbar-expand-lg navbar-dark bg-dark"
-      aria-label="Fifth navbar example"
-    >
-      <div className="container-fluid">
-        <a className="navbar-brand" href="/">
-          PROJECT2022
-        </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarsExample05"
-          aria-controls="navbarsExample05"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
+    return (
+      <Nav>
+          <NavLink to="/">SheCabs</NavLink>
+          <Bars />
+          < NavMenu >
+            {
+              menuData.map((item, index) => (
+                <NavLink to = {item.link} key={index}>
+                  {item.title}
+                </NavLink>
+              ))
+            }
+            </NavMenu >
+            <NavBtn>
+              <Button primary="true"  round="true" to="/ride"> Book Your Ride </Button>
+            </NavBtn>
+      </Nav>
+    )
 
-        <div className="collapse navbar-collapse" id="navbarsExample05">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="btn text-danger fw-bold">
-              <Link className="text-warning fw-bold" to="/">
-                Home
-              </Link>
-            </li>
-            <li className="btn text-danger fw-bold">
-              <Link className="text-warning fw-bold" to="/about">
-                About
-              </Link>
-            </li>
-            <li className="btn text-danger fw-bold">
-              <Link className="text-warning fw-bold" to="/contact">
-                Contact
-              </Link>
-            </li>
-            <li className="btn text-danger fw-bold">
-              <Link className="text-warning  fw-bold" to="/blog">
-                Blog
-              </Link>
-            </li>
-            {/* <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle" href="/" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-            <ul className="dropdown-menu" aria-labelledby="dropdown05">
-              <li><a className="dropdown-item" href="/">Action</a></li>
-              <li><a className="dropdown-item" href="/">Another action</a></li>
-              <li><a className="dropdown-item" href="/">Something else here</a></li>
-            </ul>
-          </li> */}
-          </ul>
-          <form>
-            <input
-              className="form-control"
-              type="text"
-              placeholder="Search"
-              aria-label="Search"
-            />
-          </form>
-        </div>
-      </div>
-    </nav>
-  )
 }
-
 export default Header
+const Nav = styled.nav`
+  background: transparent;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem calc((100vw - 1300px)/2);
+  z-index: 100;
+  position: relative;
+`
+const NavLink = styled(Link)`
+color: #fff;
+display: flex;
+align-items: center;
+text-decoration: none;
+padding: 0 1rem;
+height: 100%;
+cursor: pointer;
+`
+const Bars = styled(FaBars)`
+  display: none;
+  color: #fff;
+  @media screen and (max-width: 768px)
+  {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 75%);
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+`
+const NavMenu =styled.div`
+  display: flex;
+  align-items: center;
+  margin-right: -48px;
+  @media screen and [max-width: 768px]{
+  display: none;
+  }
+`
+const NavBtn = styled.div`
+  display: flex;
+  align-items: center;
+  margin-right: -24px;
+  @media screen and [max-width: 768px]{
+  display: none;
+  `
+

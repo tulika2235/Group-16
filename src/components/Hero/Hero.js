@@ -1,45 +1,112 @@
-import React from "react"
-import Image from "../Images/Images"
+import React from 'react'
+import styled from 'styled-components'
+import { Button } from "../Button"
+import Video from "../../assets/videos/Video.mp4"
+
 
 const Hero = () => {
   return (
-    <div className="container col-xxl-8 px-4 py-5">
-      <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div className="col-10 col-sm-8 col-lg-6">
-          <Image
-            className="d-block mx-lg-auto img-fluid"
-            filename="1.png"
-            alt="1"
-          />
-        </div>
-        <div className="col-lg-6">
-          <h1 className="display-5 fw-bold lh-1 mb-3">
-            Responsive left-aligned hero with image
-          </h1>
-          <p className="lead">
-            Quickly design and customize responsive mobile-first sites with
-            Bootstrap, the world’s most popular front-end open source toolkit,
-            featuring Sass variables and mixins, responsive grid system,
-            extensive prebuilt components, and powerful JavaScript plugins.
-          </p>
-          <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button
-              type="button"
-              className="btn btn-primary shadow btn-lg px-4 me-md-2"
-            >
-              Primary
-            </button>
-            <button
-              type="button"
-              className="btn btn-outline-secondary shadow btn-lg px-4"
-            >
-              Default
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
+        <HeroContainer>
+            <HeroBg>
+            <VideoBg  src = {Video} type="video/mp4" autoPlay loop muted playsInLine />
+            </HeroBg>
+            <HeroContent>
+                <HeroItems>
+                    <HeroH1>Safe and Reliable</HeroH1>
+                        <HeroP>Book your first ride with us</HeroP>
+                        <NavBtn>
+                         <Button primary="true"  round="true" to="/ride">
+                                Ride Now
+                            </Button>
+                        </NavBtn> 
+                        </HeroItems> 
+            </HeroContent>
+        </HeroContainer>
+    
   )
 }
 
 export default Hero
+ 
+const HeroContainer = styled.div`
+    background: #013220;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 1rem;
+    position: relative;
+    margin-top: -80px;
+    color: #fff;
+    :before {
+        content:"";
+        position:absolute;
+        top:0;
+        bottom:0;
+        right:0;
+        left:0;
+        z-index: 2;
+        background: Linear-gradient(180deg, rgba(0,0,0,0.2) 0%,
+         rgba(0,0,0,0.6) 100% ),
+        Linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100% );
+    }
+ `
+const HeroBg= styled.div`
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+`
+
+const VideoBg= styled.video`
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+`
+
+const  HeroContent = styled.div `
+z-index: 3;
+height: calc (100vh-80px);
+max-height: 100%;
+padding: 0rem  calc((100vw-1300px)/2);
+`
+
+const HeroItems= styled.div `
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-item: center;
+    text-align: center;
+    height: 100vh;
+    max-height: 100%;
+    padding: 0;
+    color: #fff;
+    line-height: 1.1; 
+    font-weight: bold;
+`
+
+const HeroH1= styled.h1 `
+    font-size: clamp(1.5rem, 6vw, 4rem);
+    margin-bottom: 1.5rem;
+    letter-spacing: 3px;
+    padding: 0 1rem;
+    `
+
+const HeroP= styled.p`
+    font-size: clamp(1rem, 3vw, 2rem);
+    margin-bottom: 2rem;
+    font-weight: 400;
+    `
+ const NavBtn = styled.div`
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    @media screen and [max-width: 768px]{
+    display: none;
+    }
+    `
