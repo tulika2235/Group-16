@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout/Layout"
 
+<<<<<<< HEAD
 const About = () => {
   return (
     <Layout>
@@ -22,6 +23,10 @@ const About = () => {
       </div>
     </Layout>
   )
+=======
+const about = () => {
+  return (<div>about</div>)
+>>>>>>> parent of e92e248 (Update in pages)
 }
 
 export default About

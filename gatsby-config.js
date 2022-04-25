@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 module.exports = {
   siteMetadata: {
     title: `SheCab`,
@@ -96,3 +97,15 @@ module.exports = {
       },
   ],
 }
+=======
+/**
+ * Configure your Gatsby site with this file.
+ *
+ * See: https://www.gatsbyjs.com/docs/gatsby-config/
+ */
+
+module.exports = {
+  /* Your site config here */
+  plugins: [],
+}
+>>>>>>> parent of e92e248 (Update in pages)

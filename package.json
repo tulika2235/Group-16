@@ -14,6 +14,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@mdx-js/mdx": "1.6.22",
     "@mdx-js/react": "1.6.22",
     "@mdx-js/tag": "^0.20.3",
@@ -41,6 +42,11 @@
     "react-icons": "^4.3.1",
     "sass": "^1.49.9",
     "styled-components": "^5.3.5"
+=======
+    "gatsby": "^4.8.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+>>>>>>> parent of e92e248 (Update in pages)
   },
   "devDependencies": {
     "prettier": "^2.5.1"

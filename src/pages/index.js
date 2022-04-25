@@ -7,6 +7,7 @@ import Reviews from "../components/Reviews"
 import Email from "../components/Email"
 
 const Index = () => {
+<<<<<<< HEAD
   return (
     <Layout>
     <Hero/>
@@ -16,6 +17,9 @@ const Index = () => {
     <Email/>
     </Layout>
   )
+=======
+  return (<div>Hello world!</div>)
+>>>>>>> parent of e92e248 (Update in pages)
 }
 
 export default Index
