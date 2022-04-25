@@ -1,42 +1,25 @@
 ---
-title: "This is the second blog post"
+title: "women in industries"
 date: "01-03-2022"
 author: "Tulika Srivastav"
-description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+description: "Women in Male Dominated Industries"
 image: "blog2.jpg"
 ---
 
-# What is Lorem Ipsum?
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-## Why do we use it?
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-# Where does it come from?
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.
-
-- from a Lorem Ipsum passage
-- and going through the cites
-- of the word in classical literature
-
-# discovered the undoubtable source
-Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-'''
-npm install -global yarn
-npm install -global gatsby-cli
-yarn
-gatsby develop
-yarn add bootstrap @popperjs/core sass gatsby-plugin-sass
-
-'''
-
-> The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-
-# Where can I get some?
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
-
-All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
-
-### Heading
-It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+# Women in Male Dominated Industries
+A plurality of women (48%) say they work in places where there are more women than men, while 18% say there are more men than women, according to a Pew Research Center survey. Similarly, 44% of men say their workplace is majority-male, and 19% say women outnumber men. About a third of women (33%) and men (36%) say both genders are about equally represented in their workplace.
+Women who work mainly with men are also less likely than other female workers to say their workplace pays the right amount of attention to increasing gender diversity. Only 49% say this, compared with 78% of women who say there is an even gender mix where they work and 71% who work in female-dominated workplaces.
+## Challenges
+Women working in male-dominated industries face a variety of challenges, including:
+-	Societal expectations and beliefs about women’s leadership abilities. 
+-	Pervasive stereotypes, such as that of the “caring mother” or office housekeeper. 
+-	Higher stress and anxiety compared to women working in other fields. 
+-	Lack of mentoring and career development opportunities. 
+-	Sexual harassment. 
+## Key factors that help women to stay
+One of the main findings to emerge from our conversations with the women engineers was the significance of the micro-environment – their immediate surroundings. This might involve, for example, the line manager, the team that a women engineer worked with on a day-to-day basis, the culture that affects the behaviour in that notional space. In turn, interaction with and perception of that micro-environment affected the way that the women thought, felt and acted.
+## Opening up Opportunities
+It is important that women are offered opportunities to test existing skill levels and build confidence in their own abilities, and in doing so to create the kind of internal visibility necessary to advance their careers.
+It was clear from our conversations that perceptions of competence were an issue. This was partly about men lacking confidence in the competence of female employees, but primarily women expressing doubts (invariably unfounded) about their own competence. This lack of confidence in their own abilities may be due to gender based micro-aggression in the workplace, or workplace isolation from important networks, for example. Whatever the reasons, these doubts prevent women from seeking out and seizing opportunities to advance their careers, making them less adept at self-promotion.
+## Peer Support
+Women valued support from line managers and colleagues creating an inclusive micro-environment. This was particularly relevant in terms of judgement about performance, for example. Everyone makes mistakes at work. How we are treated when we make those mistakes can have a huge impact on employee loyalty, and how the employees feel about the organisation that they work in. Women appreciated support from their immediate work group if something had gone wrong – it engendered a feeling of being valued and cared for. It was also relevant when women encountered threatening or difficult situations.

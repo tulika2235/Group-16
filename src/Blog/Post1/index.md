@@ -1,42 +1,18 @@
 ---
-title: "This is the title of the blog post"
+title: "SHE CABS"
 date: "04-03-2022"
 author: "Tulika Srivastav"
-description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+description: "Public transport services being a male dominated sector where only few women able to step up and take up a job as a cab driver. We salute such women who get out of their comfort zone."
 image: "blog1.jpg"
 ---
 
-# What is Lorem Ipsum?
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+# Some women cab drivers of India
+Public transport services being a male dominated sector where only few women able to step up and take up a job as a cab driver. We salute such women who get out of their comfort zone. They are an inspiration for the society that not only man but a women is also capable to drive cars and can be a cab driver. In most cases women are regarded as bad drivers and not given any respect. This mentality of the narrow minded society should be changed. Irrespective of the cast, creed or religion women should step up and make their own place in this male dominated sector. Some women have been able to do this. These women are:
+-	Shanno Begum
+Shanno Begum is a single mother. She worked as the cook and caregiver to financially support the kids and their education. She never dreamt about becoming a cab driver. She heard about the Azad foundation which offered six month driving course. It was a risky step for her as she was the single mother and she was not able to earn anything for the first six months. But after six months she knew she will get a regular pay. Therefore she completed her training and became a private chauffeur for an year. The she joined as a first female driver in Sakha a women only cab operator. Most people respect and look up to her.
 
-## Why do we use it?
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+-	Madhu Varma 
+Another woman driver of the of the same company Sakha. She tells her experience about working in the company. She tells that her husband has always been supportive of her being the driver. As he is also a driver so he can relate to it. She tells that the normally contract with the company is for one year but you can extend it as you want. Even nowadays Uber and Ola the big cab companies running in India are also giving vacancies of working under them. But for her money is not the only thing. Sakha gives her a good monthly wage as well as protects them and give them a choice who their passenger should be. For her the choice is important as the male passenger sitting behind you can be good or bad. Therefore for women safety is still the major aspect even if they are working in Sakha or ola/Uber.
 
-# Where does it come from?
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.
-
-- from a Lorem Ipsum passage
-- and going through the cites
-- of the word in classical literature
-
-# discovered the undoubtable source
-Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-'''
-npm install -global yarn
-npm install -global gatsby-cli
-yarn
-gatsby develop
-yarn add bootstrap @popperjs/core sass gatsby-plugin-sass
-
-'''
-
-> The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-
-# Where can I get some?
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
-
-All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
-
-### Heading
-It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+## Ola and Uber accepting female drivers
+Though now Uber have 30% female drivers and Ola have 18% female drivers. But they still do not have safety measures of the women drivers. Due to which most women are not interested in working in them. Even the company is working on safety of women drivers as well as women passengers. There are many cases where women passengers have complains about getting harassed from male drivers. Therefore it is a serious concern. Many women passengers are not comfortable travelling with male drivers late at night. But till now there is no option for a female passenger to get a female driver. Therefore the services of uber and ola could be better in these areas.
